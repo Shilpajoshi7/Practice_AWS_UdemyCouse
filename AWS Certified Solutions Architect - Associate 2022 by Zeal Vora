@@ -1,0 +1,18 @@
+Video-> ______________Creating First Website on EC2________________
+
+_____Configuring Web-Server Software__________
+sudo su -    or  you can do sudo su 
+yum install nginx
+amazon-linux-extras install nginx1
+systemctl status nginx
+systemctl start nginx
+
+_____________Configuring Our First ______________
+cd /usr/share/nginx/html
+cat index.html
+echo > index.html
+echo "I am Zeal and this is my first website" > index.html
+
+________________________________________________________________________________________________________________
+netstat -ntlp        ISSE DEKH SAKTE nginx kon se PORT pe chal re PORT 80 , sshd kon se port pe chal re PORT 22
+_________________________________________________________________________________________________________________
